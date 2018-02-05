@@ -1,8 +1,9 @@
-<br/>
 <div>
-  <div class="container">
-    <div *ngFor='let c of controls' >      
-          <app-host [control]='c' [depControls]='depControls' ></app-host>
+  <div class="row">
+    <div *ngFor='let c of controls'>
+      <div [className]="style1">
+        <app-host [control]='c' [depControls]='depControls'></app-host>
+      </div>
     </div>
   </div>
 </div>
