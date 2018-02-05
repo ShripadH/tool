@@ -1,0 +1,4 @@
+[
+        {"Id":"wd1","Label":"Widget 1","Type":"Widget1","Options":null,"Value":null,"Dep":null},
+        {"Id":"wd2","Label":"Widget 2","Type":"Widget2","Options":null,"Value":null,"Dep":null}       
+]
