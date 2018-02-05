@@ -1,9 +1,16 @@
 <div>
   <div class="row">
     <div *ngFor='let c of controls'>
-      <div [className]="style1">
+      <div [className]="c.Styleclass">
         <app-host [control]='c' [depControls]='depControls'></app-host>
       </div>
     </div>
   </div>
+</div>
+<div class="row">
+<div class="col-sm-6 col-md-6 col-lg-6">hi </div>
+<div class="col-sm-6 col-md-6 col-lg-6"> hello </div>
+
+<div class="col-sm-4 col-md-4 col-lg-4">hi </div>
+<div class="col-sm-4 col-md-4 col-lg-4"> hello </div>
 </div>

@@ -1,12 +1,13 @@
 export class Control
 {
-    constructor(id:string, label:string, component: any, value:any, options:any='', dep:any=null){
+    constructor(id:string, label:string, component: any, value:any, options:any='', dep:any=null, styleclass:string =''){
       this.Id = id;
       this.Label = label;
       this.Component = component;
       this.Options = options;
       this.Value = value;
       this.Dep = dep;
+      this.Styleclass = styleclass
     }
     
     Id:string ='';
@@ -15,6 +16,7 @@ export class Control
     Options:any;
     Value:any ='';
     Dep:any;
+    Styleclass: string ="";
 }
 export interface IComponent {
    Self:Control;
