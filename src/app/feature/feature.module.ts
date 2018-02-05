@@ -8,6 +8,7 @@ import { SampleWidget2Component } from './sample-widget2/sample-widget2.componen
     CommonModule
   ],
   exports: [SampleWidget1Component, SampleWidget2Component],
-  declarations: [SampleWidget1Component, SampleWidget2Component]
+  declarations: [SampleWidget1Component, SampleWidget2Component],
+  entryComponents: [SampleWidget1Component, SampleWidget2Component]
 })
 export class FeatureModule { }

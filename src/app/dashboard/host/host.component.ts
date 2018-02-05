@@ -4,7 +4,8 @@ import {
     ComponentFactoryResolver, ChangeDetectionStrategy,ChangeDetectorRef
  } from '@angular/core';
 
-import { Control, IComponent, ControlComponentMap } from '../../shared/models/common.model';
+//import { Control, IComponent, ControlComponentMap } from '../../shared/models/common.model';
+import { Control, IComponent, ControlComponentMap } from '../../dashboard/component.model';
 
 import {  HostDirective } from './../host.directive';
 
